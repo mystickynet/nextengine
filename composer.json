@@ -1,0 +1,33 @@
+{
+    "name": "mystickynet/nextengine",
+    "description": "A command hmvc laravel and lumen",
+    "type": "laravel",
+    "license": "MIT",
+    "homepage": "http://mysticky.net",
+    "support": {
+        "issues": "https://github.com/mystickynet/nextengine"
+    },
+    "authors": [
+        {
+            "name": "quangtaned",
+            "email": "quangtaned@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Mystickynet\\Nextengine\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0.2",
+        "mystickynet/nextengine": "1.0.x-dev"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
